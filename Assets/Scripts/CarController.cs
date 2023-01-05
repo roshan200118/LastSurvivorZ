@@ -102,7 +102,7 @@ public class CarController : MonoBehaviour
         }
 
         //If player is driving and wants to see pause menu
-        if (Input.GetKeyDown(KeyCode.Escape) && PlayerController.instance.isPlayerDriving)
+        if (Input.GetKeyDown(KeyCode.P) && PlayerController.instance.isPlayerDriving)
         {
             ShowPauseMenu();
         }
